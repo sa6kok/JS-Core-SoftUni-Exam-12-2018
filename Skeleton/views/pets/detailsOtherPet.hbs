@@ -1,0 +1,11 @@
+<section class="otherPet">
+    <h3>Name: {{pet.name}}</h3>
+    <p>Category: Cat</p>
+    <p class="img"><img src="{{pet.imageURL}}"></p>
+    <p class="description">{{pet.description}}</p>
+    <div class="pet-info">
+        <a href="#/pet/like/{{pet._id}}"><button class="button"><i class="fas fa-heart"></i> Pet</button></a>
+        <a href="#/pet/moredetails/{{pet._id}}"><button class="button">Details</button></a>
+        <i class="fas fa-heart"></i> <span> {{pet.likes}}</span>
+    </div>
+</section>
